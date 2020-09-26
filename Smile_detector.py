@@ -54,7 +54,7 @@ while True:
             # Label the smile
         if len(smiles) > 0:
             cv2.putText(frame, 'Dont smile', (x, y+h+40), fontScale=2,
-                fontFace=cv2.FONT_HERSHEY_PLAIN, color=(255, 255 ,255))
+                fontFace=cv2.FONT_HERSHEY_PLAIN, color=(50, 50 ,255))
     
     # Show the frame from webcam
     cv2.imshow('Hold your SMILE', frame)
